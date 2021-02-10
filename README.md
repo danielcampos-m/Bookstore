@@ -11,6 +11,9 @@ Projeto de plataforma para comércio de livros em andamento
 - CRUD de livros
 - Gráfico útil
 
+## Visualizar
+![colagem](https://github.com/danielcampos-m/Bookstore/blob/master/colagem.jpg)
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
