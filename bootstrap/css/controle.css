@@ -1,0 +1,28 @@
+button[type=submit]{
+    border:none;/*
+    margin-top: 25px;
+    text-align: center;
+    background-color: #EC4087;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 14px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: none;*/
+    background-color: inherit;
+    color: #EC4087;
+    font-weight: bold;
+}
+
+table{
+    max-width: inherit;
+    overflow: hidden;
+    border-collapse: collapse;
+    
+}
+
+th{
+    overflow: hidden;
+    overflow-y: hidden;
+}

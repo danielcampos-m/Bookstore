@@ -1,0 +1,161 @@
+body{
+    font-size: 16px;
+    color: #8B8B8B;
+    background-color: #F5F5F5;
+}
+
+.respimg{
+    width: 100%;
+    height: auto;
+}
+
+.perfs{
+    width: 100px;
+    clip-path: circle(28.3% at 50% 50%);
+}
+
+
+.basic{
+    font-family: "Roboto";
+    color: #8B8B8B;
+    background-color: #F5F5F5;
+}
+
+.txtcolor{
+    color: #8B8B8B;
+}
+
+.light{
+    background-color: #FFFFFF;
+    /*color: #8B8B8B;*/
+    /*color: inherit;*/
+}
+
+a{
+    color: #8B8B8B;
+    font-weight: bold;
+}
+
+.pstitle{
+    color: #8B8B8B;
+    font-weight: bold;
+}
+
+.sublinhar:hover{
+    /*stroke-dasharray: 140 540;
+    stroke-dashoffset: -500;*/
+    stroke-width: 8px;
+    fill: transparent;
+    /*stroke: #19f6e8;*/
+    border-bottom: 3px solid #EC4087;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    color: #8B8B8B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menugen input{
+    border:none;
+    background-color: transparent;
+    font: inherit;
+    
+}
+
+.menugen input:hover{
+    border:none;
+    background-color: transparent;
+    font: inherit;
+
+    stroke-width: 8px;
+    fill: transparent;
+    /*stroke: #19f6e8;*/
+    border-bottom: 3px solid #EC4087;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+    color: #8B8B8B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.parags{
+    /*white-space: nowrap;
+    width: 12em; 
+    overflow: hidden;
+    text-overflow: clip; */
+    max-height: 16ch;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+
+.gbooks{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .gbooks{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+  }
+
+@media only screen and (max-width: 800px) {
+    html{
+        font-size:75%;
+    }
+
+
+    img{
+        transform: scale(0.75%);
+    }
+  }
+
+.cfirst{
+    height: 500px;
+    background-color: #BEEBE9;
+}
+
+.csec{
+    height: 500px;
+    background-color: #F4DADA;
+}
+
+.cter{
+    height: 500px;
+    background-color: #F6EEC7;
+}
+
+.format{
+    max-width:40ch;
+}
+
+.booksee{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #fff;
+    color: inherit;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 14px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.bbooks{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 20px;
+}
+
+.alo{
+    overflow: scroll;
+}
+
+.fundo{
+    background-color: inherit;
+}

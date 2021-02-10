@@ -1,0 +1,32 @@
+input{
+    border: none;
+    border-bottom: solid 3px;
+    border-color: #EC4087;
+    background-color: #F5F5F5;
+    padding: 8px;
+    
+}
+
+input[type=submit]{
+    border:none;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #EC4087;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 14px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+h1{
+    color: #EC4087;
+}
+
+label{
+    text-decoration: bold;
+    color: #8B8B8B;
+}
+
