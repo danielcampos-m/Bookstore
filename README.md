@@ -1,3 +1,16 @@
+# Bookstore
+
+Projeto de plataforma para comércio de livros em andamento
+
+## Features
+- Validação de formulários
+- Sessões
+- Controle de acesso
+- CRUD de usuários 
+- CRUD de autores
+- CRUD de livros
+- Gráfico útil
+
 # CodeIgniter 4 Framework
 
 ## What is CodeIgniter?
